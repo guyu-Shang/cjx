@@ -1,0 +1,30 @@
+/target/
+/dist/
+/.cjx-release-*/
+
+# Only CJX-owned transaction/recovery directories; retain them on disk for recovery.
+.cjpm.toml.cjx-add/
+.cjpm.toml.cjx-lock/
+.cjpm.lock.cjx-lock/
+cjpm.toml.original
+cjpm.lock.original
+
+# Local temporary editor files (not source, documentation or test scripts).
+*.tmp
+*.temp
+*~
+/tmpDir*/
+/tmpFile*
+/tests/*-tests.exe
+/tests/*.cjo
+
+# Generated local audit evidence (machine paths and raw environment/file snapshots).
+/docs/acceptance/evidence/
+/docs/acceptance/follow-up/
+/docs/acceptance/cache-control/
+/docs/acceptance/final-checks/
+/docs/acceptance/byte-verification.json
+/docs/verification-gate-evidence/
+/docs/release-evidence/
+/docs/freeze-evidence/
+/docs/final-public-evidence/
